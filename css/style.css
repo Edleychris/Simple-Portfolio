@@ -1,0 +1,221 @@
+*{
+    color: white;
+}
+body{
+    background-image: url(/images/background.jpg);
+    background-position: 100%;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+}
+nav{
+    position: sticky;
+    top: 10px;
+    right: 110px;
+    padding: 2rem;
+    background-color:rgb(29, 27, 27);
+}
+.ul{
+    list-style-type: none;
+    position: left;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45rem;
+}
+.ul li{
+    text-decoration: none;
+    font-size: 1rem;   
+}
+.ul li :hover{
+    color: white;
+    border: 1px solid bisque;
+}
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+nav ul li :after{
+    background-color: wheat;
+    transition: 4sec;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.section_1{
+    align-items: center;
+    border-color: crimson;
+    padding-top: 1rem;
+    border: rem;
+    opacity: .9;
+    background-color: rgb(29, 27, 27);
+}
+.name{
+    font-size: 3rem;
+    color: rgb(14, 2, 2);
+    display: flex;
+
+}
+.name img{
+    width: 55rem;
+    border-radius: 100%;
+}
+.name p{
+    color: rgb(194, 34, 34);
+    padding-bottom: -2rem;
+    padding-left:14rem ;
+    text-align: center;
+    padding-top: 20rem;
+    width: 30rem;
+    border: 1px;
+}
+.About_me{
+    padding-left: 25rem;
+    font-weight: 0.1rem;
+}
+.About_me h1{
+    font-size: 2rem;
+}
+.About_me p{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.img1{
+    padding-bottom: 3px;
+    width: 1.94rem;
+}
+.img2{
+    width: 2rem;
+}
+.img1:hover{
+    border: 3px solid rgb(105, 105, 238);
+}
+.img2:hover{
+    border: 3px solid black;
+}
+.btn1{
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: red;
+    transition: 2s;
+}
+.service p{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(218, 178, 4, 0.781);
+}
+#intro{
+    text-align: center;
+}
+#intro :before{
+    content: "";
+    display: inline-block;
+    background: white;
+    width: 50%;
+    left: 0;
+    top: 50px;
+    height: 2px;
+    vertical-align: middle;
+    margin: 0 .5em 0 -50%;
+}
+#intro :after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    width: 50%;
+    right: 0;
+    top: 50px;
+    height: 2px;
+    margin: 0 -50% 0 .5em;
+}
+.service_1 h1 {
+    text-align: center;
+    color: red;
+}
+.service2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.web-developer{
+    background: url(/images/git.png);
+    background-position: 40%;
+    background-size: 15rem;
+    image-resolution: 20px;
+    width: 30%;
+    border: 1px solid  ;
+    border-radius: 20px;
+}
+.web-developer p{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', ;
+}
+.web-developer img{
+    width: px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 5px;
+}
+.graphic{
+    width: 30%;
+    background: url(/images/graphic.jpg);
+    background-position: 30%;
+    background-size: 15rem;
+    image-resolution: 20px;
+    border: 1px solid  ;
+    border-radius: 20px;
+}
+.graphic img{
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 5px;
+}
+.graphic p{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', ;
+}
+.freelencer{
+    width: 30%;
+    background: url(/images/light.webp);
+    background-position: 40%;
+    border: 1px solid  ;
+    border-radius: 20px;
+
+}
+.freelencer img{
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 5px;
+}
+.freelencer p{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', ;
+}
+.web-developer:hover{
+    border: 3px solid rgb(21, 18, 39);
+}
+.graphic:hover{
+    border: 3px solid rgb(236, 98, 98);
+
+}
+.freelencer:hover{
+    border: 3px solid cornsilk;
+}
+.footer{
+    text-align: center;
+    font-size: 2rem;
+}
+span{
+    color: red;
+    font-weight: 100rem;
+}
+.footer p{
+    color: rgb(130, 21, 232);
+}
